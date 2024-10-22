@@ -1,11 +1,4 @@
 const removeFromArray = function(array, remove) {
-    //need to remove multiple as well
-    /*if (array.indexOf(remove)) {
-        while(array.indexOf(remove) !== -1) {
-            let removeIndex = array.indexOf(remove);
-            array.splice(removeIndex, 1);
-        }
-    }*/
     for (let i = 1; i < arguments.length; i++){
         if (array.indexOf(arguments[i]) !== -1) {
             while (array.indexOf(arguments[i]) !== -1 ) {
